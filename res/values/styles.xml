@@ -1,0 +1,94 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+ 	<!-- ActionBar -->
+  	<style name="ActionBarTheme"
+           parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+  	<style name="ActionBar"
+           parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent</item>
+    </style>
+    
+    <style name="NoActionBarTheme"
+           parent="@android:style/Theme.Holo.NoActionBar">
+    </style>
+    
+    <!-- MainActivity -->
+ 	<style name="MainActivityTitle">
+  		<item name="android:layout_width">match_parent</item>
+   		<item name="android:layout_height">wrap_content</item>
+   		<item name="android:layout_weight">1</item>
+   		<item name="android:gravity">center</item>
+   		<item name="android:text">@string/death_note_title</item>
+   		<item name="android:textColor">@color/Black</item>
+   		<item name="android:textSize">60sp</item>
+   		<item name="font">RyukExtra</item>
+	</style>
+    
+    <style name="MainActivityButton">
+    	<item name="android:layout_width">match_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:gravity">center</item>
+		<item name="android:layout_marginLeft">20dp</item>
+		<item name="android:layout_marginRight">20dp</item>
+		<item name="android:layout_marginBottom">20dp</item>
+		<item name="android:background">@drawable/main_activity_button_selector</item>
+		<item name="android:textColor">@color/White</item>
+    	<item name="android:textSize">20sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">@color/Black</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+	</style>
+    
+    <!-- Player -->
+    <style name="Player" parent="@android:style/TextAppearance.Large">       
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/Black</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    
+     <style name="SectionTitle" parent="@android:style/TextAppearance.Large">       
+        <item name="android:background">@color/Black</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    
+    <style name="PlayerInfoActivityInvestigation" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/investigation_adapter_selector</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    
+    <style name="EditInvestigationActivityCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    
+    <style name="EditInvestigationActivityBtnOk">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:src">@drawable/ic_pluma</item>
+        <item name="android:contentDescription">@string/ok</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">editInvestigationClick</item>
+    </style>
+    
+    <style name="PlayerInfoActivityDeduction" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    
+</resources>

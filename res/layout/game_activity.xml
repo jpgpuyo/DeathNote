@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <TableRow
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p1"
+            android:text="@string/p1"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="1"
+        />
+ 
+        <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p2"
+            android:text="@string/p2"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="2"
+        />
+        
+         <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p3"
+            android:text="@string/p3"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="3"
+        />
+       
+        <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p4"
+            android:text="@string/p4"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="4"
+        />
+        
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/second_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+ 
+       <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p5"
+           	android:text="@string/p5"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="5"
+        />
+       
+        <com.jpuyo.deathnote.components.DeathNoteTextView
+        	android:id="@+id/lbl_p6"
+            android:text="@string/p6"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="6"
+        />
+        
+         <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p7"
+           	android:text="@string/p7"
+           	style="@style/Player"
+           	android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="7"
+        />
+       
+        <com.jpuyo.deathnote.components.DeathNoteTextView
+            android:id="@+id/lbl_p8"
+            android:text="@string/p8"
+            style="@style/Player"
+            android:clickable="true"
+            android:onClick="playerClick"
+            android:tag="8"
+        />
+        
+    </TableRow>
+ 
+</TableLayout>

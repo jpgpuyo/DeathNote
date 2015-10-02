@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/investigationsLayout"
+    android:background="@drawable/investigation_adapter_selector"
+    >
+
+    <com.jpuyo.deathnote.components.DeathNoteTextView
+        android:id="@+id/lbl_card1"
+        style="@style/PlayerInfoActivityInvestigation"
+         />
+
+    <com.jpuyo.deathnote.components.DeathNoteTextView
+        android:id="@+id/lbl_card2"
+        style="@style/PlayerInfoActivityInvestigation"
+        />
+
+    <com.jpuyo.deathnote.components.DeathNoteTextView
+        android:id="@+id/lbl_card3"
+        style="@style/PlayerInfoActivityInvestigation"
+        />
+
+</LinearLayout>

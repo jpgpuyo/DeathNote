@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Death Note</string>
+    <string name="death_note_title">DEATH NOTE</string>
+    <string name="new_game">New Game</string>
+    <string name="resume">Continue</string>
+    <string name="p1">1</string>
+    <string name="p2">2</string>
+    <string name="p3">3</string>
+    <string name="p4">4</string>
+    <string name="p5">5</string>
+    <string name="p6">6</string>
+    <string name="p7">7</string>
+    <string name="p8">8</string>
+    <string name="add">add a new investigation</string>
+    <string name="update">update an investigation</string>
+    <string name="delete">delete investigations</string>
+    <string name="ok">OK</string>
+    <string name="tabInvestigations">Investigations</string>
+    <string name="tabDeductions">Deductions</string>
+</resources>

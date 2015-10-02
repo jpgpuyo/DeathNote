@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity_background">
+    
+    <com.jpuyo.deathnote.components.DeathNoteTextView android:id="@+id/lbl_death_note" style="@style/MainActivityTitle"/>
+    
+    <RelativeLayout
+    	android:layout_width="wrap_content" 
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:orientation="vertical">
+    
+  		<Button 
+    		android:id="@+id/btn_new_game" 
+     		android:text="@string/new_game" 
+      		style="@style/MainActivityButton"
+      		android:layout_alignParentTop="true"
+      		android:onClick="onClickNewGame"/>
+   
+   		<Button 
+       		android:id="@+id/btn_continue" 
+       		android:text="@string/resume"
+       		style="@style/MainActivityButton"
+       		android:layout_below="@+id/btn_new_game"
+       		android:onClick="onClickContinue"/>
+   
+   </RelativeLayout>
+   
+</LinearLayout>

@@ -1,0 +1,41 @@
+#
+# generated on 2014/11/30 12:33:04
+#
+# --table-start--
+dataClass=com.jpuyo.deathnote.database.models.Investigation
+tableName=investigations
+# --table-fields-start--
+# --field-start--
+fieldName=rowId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=player
+# --field-end--
+# --field-start--
+fieldName=card1
+# --field-end--
+# --field-start--
+fieldName=card2
+# --field-end--
+# --field-start--
+fieldName=card3
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jpuyo.deathnote.database.models.Deduction
+tableName=deductions
+# --table-fields-start--
+# --field-start--
+fieldName=player
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=description
+uniqueCombo=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

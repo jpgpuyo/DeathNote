@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activity_background">
+    
+    <LinearLayout
+        android:id="@+id/wheelViewLayout"
+   	 	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="20dp"
+    	android:orientation="horizontal">
+    	
+    	<kankan.wheel.widget.WheelView android:id="@+id/wv_card1" style="@style/EditInvestigationActivityCard"/>
+    	<kankan.wheel.widget.WheelView android:id="@+id/wv_card2" style="@style/EditInvestigationActivityCard"/>
+    	<kankan.wheel.widget.WheelView android:id="@+id/wv_card3" style="@style/EditInvestigationActivityCard"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+    	android:layout_below="@+id/wheelViewLayout"
+    	android:gravity="center">
+    	
+    	<ImageButton android:id="@+id/btn_ok" style="@style/EditInvestigationActivityBtnOk"/>
+    	   
+    </LinearLayout>
+ 
+</RelativeLayout>
